@@ -19,7 +19,7 @@ confluent-hub install --component-dir ./connectors  debezium/debezium-connector-
 ## Copy the mssql jdbc driver to a connect volume
 
 ```
-cp connectors/debezium-debezium-connector-sqlserver/lib/mssql-jdbc-7.2.2.jre8.jar connectors/kafka-connect-jdbc.jar
+cp connectors/debezium-debezium-connector-sqlserver/lib/mssql-jdbc-7.2.2.jre8.jar connect-libs/mssql-jdbc-7.2.2.jre8.jar
 ```
 
 ## Start the platform
